@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            legend{
+                text-align: center;
+            }
+
+            fieldset{
+                display:inline;
+            }
+
+            fieldset{
+                background-color: #add9e6;
+            }
+
+            .text{
+                text-align: left;
+            }
+
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                line-height: 300%;
+            }
+
+        </style>
+    </head>
+    <body style="text-align:center;">
+        <h1>Uki-Student</h1>
+        <form>
+            <fieldset>
+                <legend>Uki Life</legend>
+
+            <table>
+
+            <tr>
+            <td><lebel for="fname">First Name</lebel></td>
+            <td>:</td>
+            <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+
+            <tr>
+            <td><lebel for="lname">Last Name</lebel></td>
+            <td>:</td>
+            <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+
+            <tr>
+            <td><label for="rno">Reg.No</label></td>
+            <td>:</td>
+            <td><input type="text" id="rno" name="rno"></td>
+            </tr>
+
+            <tr>
+            <td><label for="dob">Date of birth</label></td>
+            <td>:</td>
+            <td><input type="" id="dob" name="dob"></td>
+            </tr>
+
+
+            <tr>
+            <td><label for="gender" class="text">Gender</label></td>
+            <td>:</td> 
+            <td><pre><input type="radio" id="male" name="male"><label for="male">Male</label>   <input type="radio" id="female" name="female"><label for="female">Female</label></pre></td>
+            </tr>
+
+            <tr>
+            <td><label for="fsub" class="text">Fav.subject:</label></td>
+            </tr>
+
+            <tr>
+            <td><input type="checkbox" id="programming" name="programming">
+            <label for="programming">Programming</label></td>
+
+            <td><input type="checkbox" id="business" name="business">
+            <label for="business">Business</label></td>
+
+            <td><input type="checkbox" id="pcoaching" name="pcoaching">
+            <label for="Pcoaching">Personal Coaching</label></td>
+
+            <td><input type="checkbox" id="English" name="English">
+            <label for="English">English</label></td>
+            </tr>
+
+            <tr>
+            <td colspan="4" style="text-align:center;"><label for="Feedback" style="font-family:'Times New Roman', Times, serif;"> Feedback</label></td>
+            </tr>
+
+            <tr></tr>
+            <td colspan="4"><textarea name="text" rows="6" cols="25" id="text"></textarea></td>
+            </tr>
+
+            <tr>
+            <td colspan="4" style="text-align:center;"><pre><input type="SUBMIT" value="SUBMIT">   <input type="RESET" value="RESET"></pre></td>
+            </tr>
+
+            </table>
+
+            </fieldset>
+
+            </form>
+            </body>
+</html>
